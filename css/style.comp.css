@@ -320,7 +320,7 @@ body {
     width: calc( 3 * ( (100% - 3 * 6rem) / 4 ) + 2 * 6rem); }
 
 .hero {
-  background-image: linear-gradient(to right, rgba(99, 164, 255, 0.7), rgba(0, 75, 160, 0.8)), url("../img/hero.jpg");
+  background-image: linear-gradient(to right, rgba(99, 164, 255, 0.7), rgba(0, 75, 160, 0.8)), url("../img/hero.webp");
   background-position: top;
   background-size: cover;
   height: 100vh;
@@ -328,7 +328,7 @@ body {
   /* 900px */ }
   @media only screen and (max-width: 56.25em) {
     .hero {
-      background-image: linear-gradient(to right, rgba(99, 164, 255, 0.7), rgba(0, 75, 160, 0.8)), url("../img/hero_small.jpg"); } }
+      background-image: linear-gradient(to right, rgba(99, 164, 255, 0.7), rgba(0, 75, 160, 0.8)), url("../img/hero_small.webp"); } }
   .hero__text-box {
     position: absolute;
     left: 50%;
@@ -454,7 +454,7 @@ body {
 
 /* STORY */
 .story {
-  background-image: linear-gradient(to right, rgba(99, 164, 255, 0.8), rgba(0, 75, 160, 0.8)), url("../img/client.jpg");
+  background-image: linear-gradient(to right, rgba(99, 164, 255, 0.8), rgba(0, 75, 160, 0.8)), url("../img/client-small.jpg");
   background-position: center;
   background-size: cover;
   color: #EFEFEF;

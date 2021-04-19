@@ -1,0 +1,18 @@
+.footer{
+	/* Display */
+	display: flex;
+	justify-content: flex-end;
+
+	/* Styles */
+	background-color: $color-grey-light-2;
+	padding: 2rem 4rem;
+
+	@include respond(tab-port){
+		justify-content: center;
+		padding: 4rem 8rem;
+	}
+
+	&__info{
+		font-size: 1.6rem;
+	}
+}

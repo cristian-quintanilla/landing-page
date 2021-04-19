@@ -1,0 +1,27 @@
+.text-center{ text-align: center !important; }
+
+/* MARGIN BOTTOM */
+.mb-big{
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port){
+    margin-bottom: 5rem !important;
+  }
+
+  @include respond(phone){
+    margin-bottom: 4rem !important;
+  }
+}
+.mb-medium{
+  margin-bottom: 4rem !important;
+
+  @include respond(tab-port){
+		margin-bottom: 3rem !important;
+	}
+}
+.mb-small{ margin-bottom: 1.5rem !important; }
+
+/* MARGIN TOP */
+.mt-big{ margin-top: 8rem !important; }
+.mt-medium{ margin-top: 4rem !important; }
+.mt-small{ margin-top: 2rem !important; }

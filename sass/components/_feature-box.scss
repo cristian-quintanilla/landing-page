@@ -1,0 +1,50 @@
+.feature-box{
+	background-color: rgba($color-white, .8);
+	border-radius: 3px;
+	box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+	padding: 2rem 3rem;
+
+	transition: all .3s ease;
+
+	@include respond(tab-port){
+		padding: 2rem 5rem 4rem;
+	}
+
+	@include respond(phone){
+		padding: 2rem 5rem 4rem;
+	}
+
+	&__icon{
+		background-image: url('../img/desktop_windows.svg');
+		background-size: cover;
+
+		@supports (fill: white){
+			background-image: none;
+			fill: rgba($color-primary-dark, .8);
+		}
+
+		margin-bottom: 1rem;
+		height: 8rem;
+		width: 8rem;
+	}
+
+	&__title{
+		color: $color-primary;
+		font-size: 1.6rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	&__text{
+		font-size: 1.4rem;
+		line-height: 1.5;
+
+		@include respond(phone){
+			text-align: justify;
+		}
+	}
+
+	&:hover{
+		transform: translateY(-1.5rem);
+	}
+}

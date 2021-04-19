@@ -1,0 +1,60 @@
+.prices__card{
+	border-radius: 4px;
+	box-shadow: 1rem 1rem 2rem rgba($color-black, .5);
+	color: $color-grey-light-2;
+	padding: 2rem 4rem;
+	text-align: center;
+
+	@include respond(tab-port){
+		padding: 4rem 6rem;
+	}
+
+	&--1{
+		background-image: linear-gradient(to bottom left, $color-secondary-light, $color-secondary-dark);
+	}
+
+	&--2{
+		background-image: linear-gradient(to bottom left, $color-primary-light, $color-primary-dark);
+	}
+
+	&--3{
+		background-image: linear-gradient(to bottom left, $color-tertiary-light, $color-tertiary-dark);
+	}
+
+	&-icon{
+		height: 10rem;
+		width: 10rem;
+	}
+
+	&-title{
+		font-size: 2.7rem;
+		font-weight: 400;
+		// letter-spacing: .2rem;
+		margin: 2rem 0;
+	}
+
+	&-description{
+		font-size: 1.6rem;
+		font-weight: 300;
+	}
+
+	&-price{
+		font-size: 3.8rem;
+		font-weight: 700;
+		margin: 2rem 0;
+
+		sup{
+			font-size: 2.2rem;
+			font-weight: 300;
+			margin-right: -.5rem;
+		}
+	}
+	
+	&-list{
+		font-size: 1.4rem;
+		margin-bottom: 4rem;
+		line-height: 1.5;
+		text-decoration: underline;
+	}
+
+}

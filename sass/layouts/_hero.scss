@@ -1,0 +1,27 @@
+.hero{
+	background-image:
+		linear-gradient(
+			to right,
+			rgba($color-primary-light, 0.7),
+			rgba($color-primary-dark, 0.8)),
+		url('../img/hero.jpg');
+	background-position: top;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+
+	@include respond(tab-port){
+		background-image:
+		linear-gradient(
+			to right,
+			rgba($color-primary-light, 0.7),
+			rgba($color-primary-dark, 0.8)),
+		url('../img/hero_small.jpg');
+	}
+
+	&__text-box{
+		@include absoluteCenter;
+		text-align: center;
+	}
+
+}

@@ -71,16 +71,16 @@
 		-ms-flex: 1;
 		flex: 1;
 		color: $color-grey-light-2;
-		text-decoration: none;
 		font-size: 1.6rem;
 		font-weight: 700;
+		text-decoration: none;
 	}
 	
 	&__icon-menu{
 		cursor: pointer;
 		fill: $color-grey-light-2;
-		height: 3.5rem;
-		width: 3.5rem;
+		height: 4.5rem;
+		width: 4.5rem;
 	}
 	/* END NAVIGATION */
 
@@ -107,6 +107,10 @@
 			direction: rtl;
 			transition: max-height 400ms;
 			max-height: 80vh;
+
+			li:first-child{
+				margin-top: 2rem;
+			}
 		}
 
 		&__hide-ul {
@@ -114,7 +118,7 @@
 		}
 
 		&__link {
-			padding: 1rem 0;
+			padding: 1.5rem 0;
 		}
 	}
 	/* END MOBILE MENU */

@@ -398,14 +398,14 @@ body {
     -ms-flex: 1;
     flex: 1;
     color: #EFEFEF;
-    text-decoration: none;
     font-size: 1.6rem;
-    font-weight: 700; }
+    font-weight: 700;
+    text-decoration: none; }
   .nav__icon-menu {
     cursor: pointer;
     fill: #EFEFEF;
-    height: 3.5rem;
-    width: 3.5rem; }
+    height: 4.5rem;
+    width: 4.5rem; }
   @media screen and (max-width: 56.25em) {
     .nav__container {
       -webkit-box-orient: vertical;
@@ -426,10 +426,12 @@ body {
       direction: rtl;
       transition: max-height 400ms;
       max-height: 80vh; }
+      .nav__ul li:first-child {
+        margin-top: 2rem; }
     .nav__hide-ul {
       max-height: 0; }
     .nav__link {
-      padding: 1rem 0; } }
+      padding: 1.5rem 0; } }
   @media screen and (min-width: 56.3125em) {
     .nav__menu-button {
       display: none; }
